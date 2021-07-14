@@ -18,7 +18,7 @@ setup(
     description="The programmatic consoler.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    keywords=["console", "input", "logger", "click", "print", "log"],
+    keywords=["console", "input", "logger", "click", "print", "log", "logging"],
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
