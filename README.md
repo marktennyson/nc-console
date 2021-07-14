@@ -13,7 +13,8 @@
                                              
 ```
  The programmatic consoler.  
- Checkout the official documentation at [nc-console.netlify.app](nc-console.netlify.app)
+ Checkout the official documentation at [nc-console.netlify.app](nc-console.netlify.app)  
+ Official PYPI link : [pypi](https://pypi.org/project/nc-console)
 
 ##### Now it's quite easy to log the status and take inputs from the terminal using nc-colsole.
 
