@@ -59,10 +59,10 @@ And the output will be:
 ```
 Available options/methods to print the different log:
 ```python
-Console.log.Info()
-Console.log.Warning()
-Console.log.Success()
-Console.log.Error()
+Console.log.Info() # to log a info type message.
+Console.log.Warning() # to log a warning type message.
+Console.log.Success() # to log a success type message.
+Console.log.Error() # to log a error type message.
 ```
 * The default colour for type `info` is `bright_blue`.
 * The default colour for type `success` is `bright_green`.
@@ -112,11 +112,11 @@ The output will be:
 
 Available options/methods to take different types of input from the terminal:
 ```python
-Console.input.String()
-Console.input.Password()
-Console.input.Integer()
-Console.input.Float()
-Console.input.Boolean()
+Console.input.String() # to take a string type input.
+Console.input.Password() # to take a password type input.
+Console.input.Integer() # to take a integer type input.
+Console.input.Float() # to take a float type input.
+Console.input.Boolean() # to take a blooean type input(Y/n).
 ```
 
 * The default colour for `type` is `bright_blue`.
