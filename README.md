@@ -92,7 +92,7 @@ Available parameters for the `setLogConfig` method are:
 All of the colours accept the default available colour for `click.style`.
 
 #### Implementation of input system.
-##### Beside the logging system this module is able to take inputs from the terminal too. This system will give you the feelings like Java.
+##### Beside the logging system this module is able to take inputs from the terminal too. This system will give you the feel like Java.
 
 For a basic example:
 ```python
