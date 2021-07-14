@@ -23,15 +23,15 @@ setup(
     include_package_data=True,
     zip_safe=False,
     platforms="any",
-    # install_requires=[ 
-        
-    # ],
+    install_requires=[ 
+       "click==8.0.0" 
+    ],
     extras_require={},
     python_requires=">=3.6,<4",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: GPL License",
+        "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
