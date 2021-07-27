@@ -1,7 +1,7 @@
-from nc_console import __version__ as version
-from nc_console import __author__ as author
-
 from setuptools import setup,find_packages
+
+VERSION = "0.0.3"
+AUTHOR = "Aniket Sarkar"
 
 
 with open("README.md", "r") as f:
@@ -10,10 +10,10 @@ with open("README.md", "r") as f:
 
 setup(
     name="nc-console",
-    version=version,
+    version=VERSION,
     url="https://github.com/marktennyson/nc-console",
     license="GPL",
-    author=author,
+    author=AUTHOR,
     author_email="aniketsarkar@yahoo.com",
     description="The programmatic consoler.",
     long_description=long_description,
@@ -24,7 +24,7 @@ setup(
     zip_safe=False,
     platforms="any",
     install_requires=[ 
-       "click==8.0.0" 
+       "click >= 8.0.0" 
     ],
     extras_require={},
     python_requires=">=3.6,<4",
