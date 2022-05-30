@@ -1,6 +1,6 @@
 from setuptools import setup,find_packages
 
-VERSION = "0.0.4"
+VERSION = "0.1.0"
 AUTHOR = "Aniket Sarkar"
 
 
@@ -12,7 +12,7 @@ setup(
     name="nc-console",
     version=VERSION,
     url="https://github.com/marktennyson/nc-console",
-    license="GPL",
+    license="MIT",
     author=AUTHOR,
     author_email="aniketsarkar@yahoo.com",
     description="The programmatic consoler.",
